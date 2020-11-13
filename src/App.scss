@@ -1,0 +1,31 @@
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: aliceblue;
+  min-height: 100vh;
+
+  &__nav-bar {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+  }
+
+  &__input {
+    width: 100px;
+    height: 10px;
+  }
+
+  &__search-by-types {
+    width: 30%;
+    font-size: 9px;
+    > span {
+      font-size: 13px;
+      cursor: pointer;
+      margin-left: 5px;
+    }
+  }
+}
